@@ -9,3 +9,6 @@ ENV LC_ALL en_US.UTF-8
 
 # Set the timezone
 RUN echo "Europe/Oslo" > /etc/timezone
+
+# Install curl
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y curl
