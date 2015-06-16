@@ -3,7 +3,7 @@
 FROM hedlund/java:6
 MAINTAINER henrik@hedlund.im
 
-ENV ANT_VERSION 1.9.4
+ENV ANT_VERSION 1.9.5
 
 # Install Ant
 RUN cd && \
