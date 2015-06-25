@@ -12,3 +12,6 @@ RUN echo "Europe/Oslo" > /etc/timezone
 
 # Install curl
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y curl
+
+# Set xterm so we can use nano and other editors
+ENV TERM xterm
